@@ -53,6 +53,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "3.428.0",
     "@aws-sdk/lib-storage": "3.428.0",
+    "@aws-sdk/signature-v4-multi-region": "^3.428.0",
     "@ipld/car": "^3.2.3",
     "@ipld/dag-cbor": "^6.0.13",
     "@web-std/blob": "^3.0.1",
@@ -93,5 +94,8 @@
     "typedoc-plugin-mdn-links": "^1.0.4",
     "typedoc-plugin-missing-exports": "^0.22.3",
     "uvu": "0.5.2"
+  },
+  "overrides": {
+    "@aws-sdk/signature-v4-multi-region": "3.428.0"
   }
 }
