@@ -99,5 +99,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/filebase/filebase-js.git"
+  },
+  "overrides": {
+    "@smithy/util-endpoints": "1.1.2"
   }
 }
