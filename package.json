@@ -51,8 +51,8 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.121.0",
-    "@aws-sdk/lib-storage": "^3.121.0",
+    "@aws-sdk/client-s3": "^3.533.0",
+    "@aws-sdk/lib-storage": "^3.533.0",
     "@ipld/car": "^3.2.3",
     "@ipld/dag-cbor": "^6.0.13",
     "@web-std/blob": "^3.0.1",
@@ -93,8 +93,5 @@
     "typedoc-plugin-mdn-links": "^1.0.4",
     "typedoc-plugin-missing-exports": "^0.22.3",
     "uvu": "0.5.2"
-  },
-  "overrides": {
-    "@smithy/util-endpoints": "1.1.2"
   }
 }
