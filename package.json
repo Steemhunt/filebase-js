@@ -94,12 +94,6 @@
     "typedoc-plugin-missing-exports": "^0.22.3",
     "uvu": "0.5.2"
   },
-  "homepage": "https://github.com/filebase/filebase-js/tree/main",
-  "bugs": "https://github.com/filebase/filebase-js/issues",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/filebase/filebase-js.git"
-  },
   "overrides": {
     "@smithy/util-endpoints": "1.1.2"
   }
